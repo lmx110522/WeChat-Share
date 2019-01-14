@@ -1,0 +1,67 @@
+
+<view class='cate_list'>
+  <navigator>
+    <image  mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/java.jpg'></image>
+  </navigator>
+   <navigator>
+    <image  mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/python%20f.jpg'></image>
+  </navigator>
+   <navigator>
+    <image  mode='aspectFill' lazy-load  src='hthttp://qiniuyun.lmxljc.xyz/springbtp://qiniuyun.lmxljc.xyz/php.jpg'></image>
+  </navigator>
+   <navigator>
+    <image  lazy-load  src='http://qiniuyun.lmxljc.xyz/springboot.jpg'></image>
+  </navigator>
+   <navigator>
+    <image  mode='aspectFill'  lazy-load  src='http://qiniuyun.lmxljc.xyz/jqu.jpg'></image>
+  </navigator>
+   <navigator>
+    <image  mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/css.jpg'></image>
+  </navigator>
+</view>
+<view class='divider'></view>
+<view class='last_items'>
+    <text class='h2 last_title'>全部文章</text>
+    <view class='choose'>
+      <navigator>综合<icon class="iconfont icon-jiantou"></icon></navigator>
+      <navigator>时间<icon class="iconfont icon-jiantou"></icon></navigator>
+      <navigator>点赞数<icon class="iconfont icon-jiantou"></icon></navigator>
+      <navigator>点击率<icon class="iconfont icon-jiantou"></icon></navigator>
+    </view>
+    <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='/pages/detail/detail?id=1'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+                 <navigator url='#'> <icon class="iconfont icon-liulan"></icon> <text>12</text></navigator>
+                  <navigator url='#'> <icon class="iconfont icon-dianzan"></icon> <text>23</text></navigator>
+            </view>
+        </view>
+    </view>
+   <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='/pages/detail/detail?id=1'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+                 <navigator url='#'> <icon class="iconfont icon-liulan"></icon> <text>12</text></navigator>
+                  <navigator url='#'> <icon class="iconfont icon-dianzan"></icon> <text>23</text></navigator>
+            </view>
+        </view>
+    </view>
+   <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='/pages/detail/detail?id=1'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+                 <navigator url='#'> <icon class="iconfont icon-liulan"></icon> <text>12</text></navigator>
+                  <navigator url='#'> <icon class="iconfont icon-dianzan"></icon> <text>23</text></navigator>
+            </view>
+        </view>
+    </view>
+   
+
+    
+</view>

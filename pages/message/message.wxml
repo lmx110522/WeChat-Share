@@ -1,0 +1,249 @@
+ <view class='top_bar'>
+      <view class='divider'></view>
+      <view class='choose'>
+          <view>
+            <view class="{{selected?'choose_check':''}} choose_item" bindtap="selected">
+              <icon class="iconfont icon-dianzan"></icon>
+              <text>点赞</text>
+            </view>
+          </view>
+          <view>
+              <view class="{{selected1?'choose_check':''}} choose_item" bindtap="selected1">
+                <icon class="iconfont icon-huifu1"></icon>
+                <text>评论</text>
+              </view> 
+          </view>
+           <view>
+              <view class="{{selected2?'choose_check':''}} choose_item" bindtap="selected2">
+                <icon class="iconfont icon-huifu1"></icon>
+                <text>通知</text>
+              </view> 
+          </view>
+      </view>
+</view>
+
+<view class='show'>
+    <view wx-if='{{selected}}' class='show_area'>
+        <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>1杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+         <view class='show_item'>
+            <view>
+            <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+               <view class='no_read'>
+                <text>未读</text>
+               </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁杨宁宁</text>
+              <text class='msg'>TA刚刚点赞了您的文章</text>
+              <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+              </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+
+    </view>
+    <view wx-if='{{selected1}}' class='show_area'>
+           <view class='show_item'>
+            <view>
+              <image src='http://qiniuyun.lmxljc.xyz/1543832775237570'></image>
+              <view class='no_read'>
+                <text>未读</text>
+              </view>
+            </view>
+            <view class='item_msg'>
+              <text class='user'>杨宁宁</text>
+              <text class='msg'>感觉这个东西很不粗也感觉这个东西很不粗也感觉这个东西很不粗也
+                感觉这个东西很不粗也感觉这个东西很不粗也感觉这个东西很不粗也
+              </text>
+               <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <navigator url='/pages/detail/detail'>查看详情</navigator>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+               </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+    </view>
+
+    <view wx-if='{{selected2}}' class='show_area'>
+           <view class='show_item'>
+            <view class='item_msg notice'>
+               <view class='mes'>
+                  <text class='xt'>系统提醒</text>
+                  <text class='no_read_notice'>1</text>
+               </view>
+              <text class='msg'>你的评论的文章已经删除</text>
+               <view class='item_operate'>
+                <text catchtap='hasRead'>标记为已读</text>
+                <icon class='iconfont icon-shanchu' catchtap='confirm'></icon>
+               </view>
+            </view>
+            <text class='time'>2018-12-23 08:22:33</text>
+        </view>
+    </view>
+</view>
+

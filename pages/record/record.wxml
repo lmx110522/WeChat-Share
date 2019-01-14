@@ -1,0 +1,119 @@
+<view class='top'>
+    <view class='divider'></view>
+    <view class='title'>
+      <view class='h2'>
+        <icon wx:if="{{cate=='收藏'}}" class='iconfont icon-shoucang'></icon>
+        <icon wx:if="{{cate=='浏览'}}" class='iconfont icon-liulan'></icon>
+        我的{{cate}}记录
+      </view>
+    </view>
+    <view class='divider'></view>
+</view>
+
+<view class='record'>
+  <view class='record_item'>
+      <image src='http://qiniuyun.lmxljc.xyz/52.jpeg' mode='aspectFill' lazy-load></image>
+      <view class='main_desc'>
+          <text class='user'>李沫熙李沫熙李沫熙李沫熙李沫熙</text>
+          <navigator url='/pages/detail/detail'>
+              <text class='desc'>微信小程序上传头像</text>
+          </navigator>
+      </view>
+      <view class='cancel'>
+        <text wx:if="{{cate=='收藏'}}">取消收藏</text>
+        <text wx:if="{{cate=='浏览'}}">删除记录</text>
+      </view>
+   </view>
+    <view class='record_item'>
+      <image src='http://qiniuyun.lmxljc.xyz/52.jpeg' mode='aspectFill' lazy-load></image>
+      <view class='main_desc'>
+          <text class='user'>李沫熙李沫熙李沫熙李沫熙李沫熙</text>
+          <navigator url='/pages/detail/detail'>
+              <text class='desc'>微信小程序上传头像</text>
+          </navigator>
+      </view>
+      <view class='cancel'>
+        <text wx:if="{{cate=='收藏'}}">取消收藏</text>
+        <text wx:if="{{cate=='浏览'}}">删除记录</text>
+      </view>
+   </view>
+    <view class='record_item'>
+      <image src='http://qiniuyun.lmxljc.xyz/52.jpeg' mode='aspectFill' lazy-load></image>
+      <view class='main_desc'>
+          <text class='user'>李沫熙李沫熙李沫熙李沫熙李沫熙</text>
+          <navigator url='/pages/detail/detail'>
+              <text class='desc'>微信小程序上传头像</text>
+          </navigator>
+      </view>
+      <view class='cancel'>
+        <text wx:if="{{cate=='收藏'}}">取消收藏</text>
+        <text wx:if="{{cate=='浏览'}}">删除记录</text>
+      </view>
+   </view>
+    <view class='record_item'>
+      <image src='http://qiniuyun.lmxljc.xyz/52.jpeg' mode='aspectFill' lazy-load></image>
+      <view class='main_desc'>
+          <text class='user'>李沫熙李沫熙李沫熙李沫熙李沫熙</text>
+          <navigator url='/pages/detail/detail'>
+              <text class='desc'>微信小程序上传头像</text>
+          </navigator>
+      </view>
+      <view class='cancel'>
+        <text wx:if="{{cate=='收藏'}}">取消收藏</text>
+        <text wx:if="{{cate=='浏览'}}">删除记录</text>
+      </view>
+   </view>
+    <view class='record_item'>
+      <image src='http://qiniuyun.lmxljc.xyz/52.jpeg' mode='aspectFill' lazy-load></image>
+      <view class='main_desc'>
+          <text class='user'>李沫熙李沫熙李沫熙李沫熙李沫熙</text>
+          <navigator url='/pages/detail/detail'>
+              <text class='desc'>微信小程序上传头像</text>
+          </navigator>
+      </view>
+      <view class='cancel'>
+        <text wx:if="{{cate=='收藏'}}">取消收藏</text>
+        <text wx:if="{{cate=='浏览'}}">删除记录</text>
+      </view>
+   </view>
+   <view class='record_item'>
+      <image src='http://qiniuyun.lmxljc.xyz/52.jpeg' mode='aspectFill' lazy-load></image>
+      <view class='main_desc'>
+          <text class='user'>李沫熙李沫熙李沫熙李沫熙李沫熙</text>
+          <navigator url='/pages/detail/detail'>
+              <text class='desc'>微信小程序上传头像</text>
+          </navigator>
+      </view>
+      <view class='cancel'>
+        <text wx:if="{{cate=='收藏'}}">取消收藏</text>
+        <text wx:if="{{cate=='浏览'}}">删除记录</text>
+      </view>
+   </view>
+   <view class='record_item'>
+      <image src='http://qiniuyun.lmxljc.xyz/52.jpeg' mode='aspectFill' lazy-load></image>
+      <view class='main_desc'>
+          <text class='user'>李沫熙李沫熙李沫熙李沫熙李沫熙</text>
+          <navigator url='/pages/detail/detail'>
+              <text class='desc'>微信小程序上传头像</text>
+          </navigator>
+      </view>
+      <view class='cancel'>
+        <text wx:if="{{cate=='收藏'}}">取消收藏</text>
+        <text wx:if="{{cate=='浏览'}}">删除记录</text>
+      </view>
+   </view>
+   <view class='record_item'>
+      <image src='http://qiniuyun.lmxljc.xyz/52.jpeg' mode='aspectFill' lazy-load></image>
+      <view class='main_desc'>
+          <text class='user'>李沫熙李沫熙李沫熙李沫熙李沫熙</text>
+          <navigator url='/pages/detail/detail'>
+              <text class='desc'>微信小程序上传头像</text>
+          </navigator>
+      </view>
+      <view class='cancel'>
+        <text wx:if="{{cate=='收藏'}}">取消收藏</text>
+        <text wx:if="{{cate=='浏览'}}">删除记录</text>
+      </view>
+   </view>
+</view>
+

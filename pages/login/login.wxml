@@ -1,0 +1,45 @@
+<view class='logo_img'>
+  <image mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/login.jpg'></image>
+</view>
+<view class="body">
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">登录</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">注册</view>
+  </view>
+  
+  <view class="{{selected?'show':'hidden'}} show_area">
+     <view class='input_item'>
+        <icon class='iconfont icon-shouji'></icon>
+        <input  type='text' placeholder='手机号' placeholder-style='font-size:15px;'></input>
+    </view>
+    <view class='input_item'>
+        <icon class='iconfont icon-mima'></icon>
+        <input  password='password' placeholder='密码' placeholder-style='font-size:15px;'></input>
+    </view>
+    <view class='input_item'>
+        <icon class='iconfont icon-yanzhengma'></icon>
+        <input class='code'  placeholder='图形验证码' placeholder-style='font-size:15px;'></input>
+        <canvas canvas-id="canvas" bindtap='change'></canvas>
+    </view>
+    <view>
+      <button class='submit'>登录</button>
+    </view>
+  </view>
+  <view class="{{selected1?'show':'hidden'}} show_area">
+    <view class='input_item'>
+        <icon class='iconfont icon-shouji'></icon>
+        <input  type='text' placeholder='手机号' placeholder-style='font-size:15px;'></input>
+    </view>
+    <view class='input_item'>
+        <icon class='iconfont icon-yanzhengma'></icon>
+        <input  placeholder='手机验证码' class='code' placeholder-style='font-size:15px;'></input>
+        <text class='getCode'>获取验证码</text>
+    </view>
+      <button class='submit'>注册</button>
+  </view>
+  <view class='main_msg'>
+    <text>@copyright GIS工作室版权</text>
+  </view>
+</view>
+<view>
+</view>

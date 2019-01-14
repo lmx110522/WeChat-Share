@@ -1,0 +1,178 @@
+<view class='top_nav'>
+    <view class='divider'></view>
+      <view class='title'>
+        <view class='h2'>
+            我的文章列表   
+        </view>
+      </view>
+    <view class='all_cate'>
+        <navigator class='check'>
+          <text>全部类别</text>
+        </navigator>  
+        <navigator>
+          <text>CSS</text>
+        </navigator>  
+        <navigator>
+          <text>PHP</text>
+        </navigator>  
+        <navigator>
+          <text>Python爬虫</text>
+        </navigator>  
+        <navigator>
+          <text>SpringBoot</text>
+        </navigator>  
+        <navigator>
+          <text>Java</text>
+        </navigator>  
+        <navigator>
+          <text>JQuery</text>
+        </navigator>
+        <navigator>
+          <text>其他</text>
+        </navigator>
+    </view>
+    <view class='divider'></view>
+</view>
+
+<view class='article'>
+    <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+     <view class='article_item'>
+        <view class='main_msg'>
+          <navigator url='/pages/detail/detail'><text>如何配置springboot如何配置springboot如何配置springboot如何配置springboot</text></navigator>
+        </view>
+        <view class='base_msg'>
+             <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+             <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+             <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+             <view><icon class='iconfont icon-dianzan'></icon><text>88</text></view>  
+        </view>
+        <view class='top'>
+          <icon class='iconfont icon-shanchu'></icon>
+        </view>
+    </view> 
+</view>

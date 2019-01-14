@@ -1,0 +1,105 @@
+<view class='top'>
+    <swiper id='swiper_nav' circular='true' autoplay='true' interval='5000' duration='500' indicator-dots='true'>
+      <swiper-item>
+          <navigator url='#'>
+              <image mode='aspectFill' lazy-load src='http://qiniuyun.lmxljc.xyz/springboot.jpg'></image>
+          </navigator>
+      </swiper-item> 
+        <swiper-item>
+          <navigator url='#'>
+              <image  mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/%E5%BC%A0%E6%9D%B0.jpg'></image>
+          </navigator>
+        </swiper-item>
+        <swiper-item>
+          <navigator url='#'>
+              <image  mode='aspectFill' lazy-load     src='http://qiniuyun.lmxljc.xyz/%E5%BE%90%E8%89%AF.jpg'></image>
+          </navigator>
+      </swiper-item>
+    </swiper>
+    <view class='divider'></view>
+    <text class='h2 last_title'>最新文章</text>
+    <navigator class='update_view'><text>有新的文章，点我查看</text></navigator>
+</view>
+
+<view class='last_items'>
+    <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='#'><text class='item_title'>1springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-shijian"></icon>           <text>2018-12-15</text></navigator>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+            </view>
+        </view>
+    </view>
+     <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='#'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-shijian"></icon>           <text>2018-12-15</text></navigator>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+            </view>
+        </view>
+    </view>
+     <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='#'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-shijian"></icon>           <text>2018-12-15</text></navigator>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+            </view>
+        </view>
+    </view>
+     <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='#'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-shijian"></icon>           <text>2018-12-15</text></navigator>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+            </view>
+        </view>
+    </view>
+     <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='#'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-shijian"></icon>           <text>2018-12-15</text></navigator>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+            </view>
+        </view>
+    </view>
+    <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='#'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-shijian"></icon>           <text>2018-12-15</text></navigator>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+            </view>
+        </view>
+    </view>
+    <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='#'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-shijian"></icon>           <text>2018-12-15</text></navigator>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+            </view>
+        </view>
+    </view>
+    <view class='last_item'>
+        <image class='user_img' mode='aspectFill' lazy-load  src='http://qiniuyun.lmxljc.xyz/1543737383203212'></image>
+        <view class='last_view'>
+            <navigator url='#'><text class='item_title'>springboot如何配置的问题springboot如何配置的问题springboot如何配置的问题</text></navigator>
+            <view class='article_detail'>
+                <navigator url='#'> <icon class="iconfont icon-shijian"></icon>           <text>2018-12-15</text></navigator>
+                <navigator url='#'> <icon class="iconfont icon-leibie"></icon> <text>JavaWeb</text></navigator>
+            </view>
+        </view>
+    </view>
+</view>

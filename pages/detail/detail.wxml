@@ -1,0 +1,57 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+
+<view>
+   <text class='detail_title'><text class='h2'>关于springboot的配置问题</text></text> 
+   <view class='author'><icon class='iconfont icon-rencai'></icon><text>李沫熙</text></view>
+   <view class='detail_msg'>
+      <view><icon class='iconfont icon-shijian'></icon><text>2018-12-15</text></view>
+      <view><icon class='iconfont icon-liulan'></icon><text>22</text></view>
+      <view><icon class='iconfont icon-leibie'></icon><text>SpringBoot</text></view>
+   </view>
+</view>
+<view class='detail_content'>
+  <template is="wxParse" data="{{wxParseData:detail.nodes}}"/>
+</view>
+<view class='thumb'><icon class="iconfont icon-dianzan"></icon><text>25(取消赞)</text></view>
+<view class='comment_area'>
+  <view class='h2 comment_title'>写评论</view>
+  <view class="section">
+    <textarea bindblur="bindTextAreaBlur" placeholder-style="color:#666;font-size:17px" auto-height placeholder="点击我，发表你的看法" />
+      <button form-type="submit" id='submit'>发表</button>
+  </view>
+   <view class='h2 comment_title'>全部评论</view>
+   <view>
+      <view class='comment_item'>
+          <view class='user'>
+              <image mode='aspectFill' lazy-load src='http://qiniuyun.lmxljc.xyz/1543734488365282'></image>
+              <view class='top_msg'>
+                <text>李沫熙李沫熙</text>
+              </view>
+          </view>
+
+          <view class='comment_desc'>
+              <text class='comment_content'>微信小程序中textarea没有bindchange事件，所以无法在输入时给变量赋值。虽然可以使用bindblur事件，但是绑定bindblur事件，如果再点击按钮，则先执行完按钮事件后，再去执行bindblur事件，所以在js文件取不到输入值 ...</text>
+              <view class='comment_other'>
+                    <view>
+                      <icon class='iconfont icon-shijian'></icon><text>2018-12-25</text>
+                      <view class='icon_do'>
+                        <icon class='iconfont icon-huifu1'></icon>
+                        <icon class='iconfont icon-xin'></icon>
+                        <icon class='iconfont icon-shanchu'></icon>
+                      </view>
+                    </view>
+              </view>
+              <view>
+          <view class='source'>
+               <text class='h2'>原文作者：杨宁宁</text> 
+               <text class='source_content'>
+                   微信小程序中textarea没有bindchange事件，所以无法在输入时给变量赋值。虽然可以使用bindblur事件，但是绑定bindblur事件，如果再点击按钮，则先执行完按钮事件后，再去执行bindblur
+               </text>
+          </view>    
+          </view>
+        </view>  
+
+       
+      </view>
+   </view>
+</view>

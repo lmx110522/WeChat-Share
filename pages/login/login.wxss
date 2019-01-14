@@ -1,0 +1,106 @@
+.logo_img image{
+  width: 100%;
+}
+
+.nav{
+  width:100%;
+  height:100rpx;
+  display:flex;
+  flex-direction:row;
+  }
+.default{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  border-right:1px solid gainsboro;
+  color:#000;
+  font-weight:bold;
+  font-size:15px;
+  }
+.red{
+  line-height:100rpx;
+  text-align:center;
+  color:#b22222;
+  flex:1;
+  border-right:1px solid gainsboro;
+  font-weight:bold;
+  font-size:17px;
+  }
+.show{
+  display: block;
+  }
+.hidden{
+  display:none;
+  line-height:200px;
+  }
+
+
+.input_item{
+  width: 90%;
+  border-bottom: 1px silver solid;
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx 20rpx;
+  margin: 30rpx 10rpx;
+}
+.dray_block{
+  border: none;
+}
+.input_item icon{
+  width: 10%;
+  font-size: 23px;
+  color: #b22222;
+  font-weight: bold;
+}
+.input_item input{
+  width: 90%;
+}
+.show_area{
+  border: 1px solid #f1f1f1;
+  padding: 30rpx;
+  margin: 30rpx;
+  border-radius: 10rpx;
+  box-shadow: 0rpx 2rpx 2rpx 5rpx #999;
+}
+.content{
+  margin: 0 auto;
+  height: 80rpx;
+  border: 1rpx solid #ddd;
+}
+.box{
+ 
+  height: 80rpx;
+  background-color: #b22222;
+}
+.submit{
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #B22222;
+  color: white;
+  font-size: 16px;
+  bottom: 0rpx;
+  width: 100%;
+}
+.getCode{
+  font-size: 14px;
+  color: #b22222;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+.code{
+  width: 55% !important;
+}
+canvas {
+    width: 180rpx;
+    height: 56rpx;
+    border-radius: 28rpx;
+    margin-left: 35rpx;
+}
+.main_msg{
+  position: fixed;
+  bottom: 10rpx;
+  color: #B22222;
+  left: 30%;
+  font-size: 14px;
+  font-family: fantasy;
+}

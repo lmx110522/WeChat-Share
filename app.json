@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/person/person",
+    "pages/detail/detail",
+    "pages/post/post",
+    "pages/login/login",
+    "pages/base/base",
+    "pages/message/message",
+    "pages/record/record",
+    "pages/myArticle/myArticle",
+    "pages/about/about",
+    "pages/feedback/feedback"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#B22222",
+    "navigationBarTitleText": "沫熙知识点分享",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#B22222",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/icon/index.png",
+        "selectedIconPath": "/icon/index-active.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "全部文章",
+        "iconPath": "/icon/list.png",
+        "selectedIconPath": "/icon/list-active.png"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "发布文章",
+        "iconPath": "/icon/post.png",
+        "selectedIconPath": "/icon/post-active.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "我",
+        "iconPath": "/icon/person.png",
+        "selectedIconPath": "/icon/person-active.png"
+      }
+    ]
+  }
+}

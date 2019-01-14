@@ -1,0 +1,139 @@
+.choose{
+  display: flex;
+  flex-direction: row;
+  
+} 
+.top_bar{
+  width: 100%;
+  position: fixed;
+  background: white;
+  top: 0rpx;
+  z-index: 1000;
+  border-bottom: 1px solid #f1f1f1;
+}
+.choose view{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.choose_item{
+  padding: 10rpx;
+}
+.choose_check{
+ color: #b22222;
+  border-bottom: 4rpx solid #b22222;
+}
+.choose_item icon{
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 8rpx;
+}
+.choose_item{
+  font-size: 18px;
+  font-weight: bold;
+}
+.show_area{
+  width: 100%;
+  padding: 10rpx 30rpx;
+  box-sizing: border-box;
+}
+.show{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 92rpx;
+}
+.show_item{
+  display: flex;
+  flex-direction: row;
+  padding: 15rpx 20rpx;
+  position: relative;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f1f1f1;
+}
+.show_item image{
+  border-radius: 50%;
+  height: 120rpx;
+  width: 120rpx;
+  margin-right: 30rpx;
+}
+.show_item .item_msg{
+  display: flex;
+  flex-direction: column;
+  width:75%;
+
+}
+.show_item .item_msg .user{
+  color: #b22222;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-bottom: 10rpx;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 55%;
+}
+.show_item .item_msg .msg{
+  color: #666;
+  font-size: 13px;
+}
+.show_item .time{
+  position: absolute;
+  right: 0;
+  top: 18rpx;
+  color: #777;
+  font-size: 12px;
+}
+.no_read{
+  font-size: 14px;
+  background: linear-gradient(to right, #FE8C0E 30%, #FE2573 80%);
+  color: white;
+  height: 45rpx;
+  width: 120rpx;
+  line-height: 45rpx;
+  border-radius: 15rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.item_operate{
+  height: 60rpx;
+  margin-top: 33rpx;
+  display: flex;
+  flex-direction: row;
+}
+.item_operate navigator,.item_operate text{
+  height: 60rpx;
+  color: #222;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 65rpx;
+  margin-right: 30rpx;
+}
+.item_operate icon{
+  color: #b22222;
+  font-size: 18px;
+}
+.notice{
+  width: 100% !important;
+}
+.no_read_notice{
+  background: #b22222;
+  text-align: center;
+  border-radius: 50%;
+  height: 30rpx;
+  width: 30rpx;
+  color: white;
+  font-size: 10px;
+  margin-left: 5rpx;
+}
+.mes{
+  display: flex;
+  flex-direction: row;
+}
+.xt{
+  padding: 20rpx 0rpx;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #b22222;
+}

@@ -1,0 +1,58 @@
+page{
+  height:100%;
+  color: #2a2a2a;
+  font-size: 36rpx;
+}
+.input_view{
+  display: flex;
+  padding: 10px;
+  font-size: 32rpx;
+}
+.img_view{
+  display: flex;
+  padding: 4px;
+  background-color: white;
+  margin-left: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.toWrite{
+  position: fixed;
+  bottom: 100rpx;
+  right: 60rpx;
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b22222;
+}
+.toWrite image{
+  width:80rpx;
+  height:80rpx;
+}
+.input_style{
+  font-size: 16px;
+}
+.input_title{
+  display: flex;
+  flex-direction: row;
+  margin: 30rpx;
+}
+.input_detail{
+  margin: 30rpx;
+}
+.input_word{
+  color: #b22222;
+}
+.submit{
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #B22222;
+  color: white;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+}

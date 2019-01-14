@@ -1,0 +1,12 @@
+<view class='bg'>
+  <image lazy-load mode='aspectFill' src='http://qiniuyun.lmxljc.xyz/fj.jpg'></image>
+</view>
+<view class='title'>
+    <text class='h2'>本站介绍</text>
+</view>
+<view class='divider'></view>
+<view class='desc'>
+  本站是李茂展同学接触微信小程序的第一个项目，由本人前后天一气呵成，
+  难免有些地方有很多的不错，如何在使用中有不足，请联系我。
+  本站主要是用于学习交流，用微信小程序更快捷，更好用。
+</view>

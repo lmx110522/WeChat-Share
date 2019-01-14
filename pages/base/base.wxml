@@ -1,0 +1,42 @@
+<scroll-view scroll-y="false">
+<view class='body'>
+    <image src='http://qiniuyun.lmxljc.xyz/bg.jpg' mode='aspectFill' lazy-load></image>
+</view>
+</scroll-view>
+<view class='main_msg'>
+  <view class='base_title'>
+      <text>基本信息</text>
+  </view>
+  <view class='no_do top_do'>
+    <icon class='iconfont icon-shouji'></icon><text>手机号：</text>
+    <input disabled='disabled' value='13193801071'></input>
+  </view>
+  <view class='no_do'>
+      <icon class='iconfont icon-yonghu'></icon><text>昵 称：</text>
+      <input disabled='{{is_input}}' placeholder='昵称，只允许修改一次' placeholder-style='font-size:15px'></input>
+  </view>
+  <view class='divider'></view>
+  <view class='no_do'>
+      <icon class='iconfont icon-shengri'></icon><text>生日：</text>
+      <input disabled='{{is_input}}' placeholder='我的生日' placeholder-style='font-size:15px'></input>
+  </view>
+  <view class='no_do'>
+      <icon class='iconfont icon-xingbie'></icon><text>性别：</text>
+      <input disabled='{{is_input}}' placeholder='性别' placeholder-style='font-size:15px'></input>
+  </view>
+  <view class='divider'></view>
+  <view class='no_do'>
+      <icon class='iconfont icon-mima'></icon><text>密码：</text>
+      <input disabled='{{is_input}}' placeholder='我的密码' placeholder-style='font-size:15px'></input>
+  </view>
+  <view class='no_do'>
+      <icon class='iconfont icon-mima'></icon><text>确认密码：</text>
+      <input disabled='{{is_input}}'  placeholder='确认密码' placeholder-style='font-size:15px'></input>
+  </view>
+</view>
+
+<view class='operate'>
+    <button class='edit' wx:if='{{is_input}}' bindtap='clickEdit'>修改</button>
+     <button class='edit' wx:if='{{!is_input}}' bindtap='finshEdit'>确认修改</button>
+</view>
+

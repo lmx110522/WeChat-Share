@@ -1,0 +1,14 @@
+<view class='divider'></view>
+  <view class='title'>
+      <text class='h2'>意见与反馈</text>
+  </view>
+<view class='divider'></view>
+<view class="section">
+    <textarea bindblur="bindTextAreaBlur" placeholder-style="color:#666;font-size:17px" auto-height placeholder="请您的建议发送我，我会尽快给你回复~" />
+      <button form-type="submit" id='submit'>发送</button>
+</view>
+<view class='other_msg'>
+  <text>当然你也可以通过微信或邮箱发送给我您的意见，我会及时查看！</text>
+  <text class='base_msg'>邮箱：1247721306@qq.com</text>
+  <text class='base_msg'>微信：uui1556</text>
+</view>

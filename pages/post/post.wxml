@@ -1,0 +1,29 @@
+<view class='input_title'>
+  <text class='input_word'>文章标题：</text><input type='text' placeholder='请输入文章标题' placeholder-class='input_style'></input>
+</view>
+<view class='input_title'>
+  <text class='input_word'>文章类别：</text>
+   <picker bindchange="bindCasPickerChange" value="{{casIndex1}}" range="{{casArray}}">
+      <view>
+       <text>{{choose_cate}}</text>
+      </view>
+    </picker>
+</view>
+<view class='toWrite' bindtap='addImg'>
+  <image mode='aspectFill' lazy-load  src='../../icon/album.png'  />
+</view>
+<view class='input_detail'>
+  <text class='input_word'>详细叙述：</text>
+  <textarea class='input_view' maxlength='-1' auto-height='true' bindinput='inputCon' style='width:{{width-20}}px;' value='{{firstCon}}' placeholder='写点什么...' bindblur="outBlur" id='0'  />
+  <view wx:for="{{dataList}}" style='background-color:white;' wx:key='id'>
+    <view class='img_view' style='width:{{width-28}}px;max-height:{{width-28}}px;'>
+      <image style='width:{{width-28}}px;max-height:{{width-28}}px;' src='{{item.pic}}' mode='aspectFill' />
+      <view>
+        <icon type='cancel' bindtap='deletedImg' data-index='{{index}}' size='25' color='#B2222' style='width:25px;height:25px;margin-left:-35px;margin-top:10px;'></icon>
+      </view>
+    </view>
+    <textarea class='input_view' maxlength='-1' auto-height='true' bindinput='inputCon' style='width:{{width-20}}px;' value='{{item.value}}' placeholder='写点什么...' bindblur="outBlur" id='{{index+1}}'  />
+  </view>
+  <view style='height:45px;width:100%;'></view>
+</view>
+<button class='submit'>发布文章</button>

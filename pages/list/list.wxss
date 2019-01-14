@@ -1,0 +1,32 @@
+.cate_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cate_list navigator{
+  height: 200rpx;
+  width: 33.333%;
+  border: 1rpx solid #f1f1f1;
+  box-sizing: border-box;
+}
+.cate_list navigator image{
+  height: 200rpx;
+  width: 100%;
+  /* filter: blur(2px); */
+}
+.choose{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  background: #B22222;
+  padding: 15rpx 30rpx;
+}
+.choose navigator{
+  color: #B22222;
+  font-size: 12px;
+  padding: 0rpx 10rpx 9rpx;
+  background: white;
+  margin-right: 30rpx;
+  border-radius: 10rpx;
+  font-weight: bold;
+}

@@ -1,0 +1,87 @@
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 10rpx 0;
+}
+.top_nav{
+  width: 100%;
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+  z-index: 1000;
+  background: white;
+  margin-bottom: 100%;
+}
+.all_cate{
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.all_cate navigator{
+  width: 33.333%;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all_cate navigator text{
+  font-size: 16px;
+}
+.all_cate  .check{
+  color: #b22222;
+  font-weight: bold;
+}
+.article{
+  padding-top: 55%;
+  overflow: hidden;
+  width: 100%;
+}
+.article .article_item{
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f1f1f1;
+  padding: 20rpx;
+  box-sizing: border-box;
+  margin: 10rpx;
+  position: relative;
+  border-radius: 10rpx;
+}
+.main_msg navigator{
+  color: #b22222;
+  font-size: 15px;
+  font-weight: bold;
+  width: 90%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.base_msg{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+}
+.base_msg view{
+  color: #666;
+  font-size: 13px;
+}
+.base_msg view icon{
+  margin-right: 8rpx;
+}
+.base_msg view text{
+  margin-right: 35rpx;
+}
+.top{
+  position: absolute;
+  top: 10rpx;
+  right: 15rpx;
+  color: #b22222;
+}
+.top icon{
+  font-size: 18px;
+}

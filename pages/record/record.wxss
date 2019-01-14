@@ -1,0 +1,68 @@
+page{
+  width: 100%;
+}
+.top{
+  position: fixed;
+  left: 0rpx;
+  top: 0rpx;
+  width: 100%;
+  z-index: 1000;
+  background: white;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 10rpx 0;
+}
+.record{
+   width: 100%;
+   padding-top: 15%;
+}
+.record_item{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 20rpx;
+  border: 1px solid gainsboro;
+}
+.record_item image{
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 20rpx;
+}
+.main_desc{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.record .main_desc .user{
+  color: #b22222;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-bottom: 10rpx;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 70%;
+}
+.record .main_desc .desc{
+  color: #666;
+  font-size: 13px;
+}
+.cancel{
+  position: absolute;
+  top: 15rpx;
+  right: 15rpx;
+  font-size: 13px;
+  color: white;
+  padding: 6rpx 10rpx;
+  border-radius: 15rpx;
+  background: linear-gradient(to right, #FE8C0E 30%, #FE2573 80%);
+}
+.h2 icon{
+  font-size: 23px;
+}

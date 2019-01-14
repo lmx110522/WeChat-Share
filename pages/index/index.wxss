@@ -1,0 +1,29 @@
+#swiper_nav image{
+  height: 320rpx;
+  width: 100%;
+}
+.update_view{
+  margin-top: 10rpx;
+  height: 55rpx;
+  width: 100%;
+  line-height: 55rpx;
+  float: flex;
+  justify-content: center;
+  display: flex;
+  background: #B22222;
+}
+.update_view text{
+  color: white;
+  font-size: 16px;
+}
+.top{
+  background: white;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  left: 0rpx;
+  top: 0rpx;
+}
+.last_items{
+  padding-top: 58%;
+}

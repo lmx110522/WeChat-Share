@@ -1,0 +1,33 @@
+.change_area{
+  background: #B22222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.change_area image{
+  height: 230rpx;
+  width: 230rpx;
+  margin: 30rpx;
+  border-radius: 50%;
+}
+.cell navigator{
+  width: 100%;
+}
+.cell{
+  font-size: 17px;
+  padding:20rpx;
+  border-bottom: 1px solid #f1f1f1; 
+}
+.base_msg icon{
+    color: #B22222;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50rpx;
+}
+navigator:last-child{
+  text-align: center;
+  color: #B22222;
+  font-family: fantasy;
+  font-size: 15px;
+  border: none;
+}

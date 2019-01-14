@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#B22222",
+  "navigationBarTitleText": "我发布过的文章",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#B22222",
+  "enablePullDownRefresh": true
+}

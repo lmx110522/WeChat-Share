@@ -1,0 +1,30 @@
+<view class='change_area'>
+    <image mode='aspectFill' lazy-load  src='{{avatar}}' bindtap='changeAvatar'></image>
+</view>
+<view class='divider'></view>
+<navigator url='/pages/base/base'  class='arrow cell base_msg'>
+  <view><icon class='iconfont icon-yonghu'></icon><text>基本信息</text></view>
+</navigator>
+<navigator url='/pages/message/message' class='arrow cell base_msg'>
+  <view><icon class='iconfont icon-huifu1'></icon><text>消息中心</text></view>
+</navigator>
+<view class='divider'></view>
+<navigator class='arrow cell base_msg' url='/pages/record/record?cate=浏览'>
+  <view><icon class='iconfont icon-liulan'></icon><text>浏览记录</text></view>
+</navigator>
+<navigator class='arrow cell base_msg' url='/pages/record/record?cate=收藏'>
+  <view><icon class='iconfont icon-shoucang'></icon><text>收藏记录</text></view>
+</navigator>
+<navigator url='/pages/myArticle/myArticle' class='arrow cell base_msg'>
+  <view><icon class='iconfont icon-fabu'></icon><text>我发布过的文章</text></view>
+</navigator>
+<view class='divider'></view>
+<navigator url='/pages/about/about' class='arrow cell base_msg'>
+  <view><icon class='iconfont icon-guanyu'></icon><text>关于本站</text></view>
+</navigator>
+<navigator url='/pages/feedback/feedback' class='arrow cell base_msg'>
+  <view><icon class='iconfont icon-fankui'></icon><text>意见与反馈</text></view>
+</navigator>
+<navigator class=' cell base_msg'>
+  <view><text>@copyright  南阳理工GIS工作室版权</text></view>
+</navigator>
